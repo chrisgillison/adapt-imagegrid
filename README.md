@@ -6,6 +6,9 @@ This can be useful for visual bullet lists where a set of labelled images are re
 
 ![imagegrid](https://raw.githubusercontent.com/chrisgillison/shared-assets/master/imagegrid.gif)   
 
+## Installation
+This plugin must be installed manually.
+
 ## Settings Overview
 
 The attributes listed below are used in *components.json* to configure **Imagegrid**, and are properly formatted as JSON in [*example.json*](https://github.com/chrisgillison/adapt-imagegrid/blob/master/example.json). 
@@ -41,7 +44,7 @@ Imagegrid has a dynamic layout system. If you have 5 items but set the columns t
 **Imagegrid** has a label assigned using the [aria-label](https://github.com/adaptlearning/adapt_framework/wiki/Aria-Labels) attribute: **ariaRegion**. These labels are not visible elements. They are utilized by assistive technology such as screen readers. This label is included within the *example.json* and will need adding to the _globals in *course.json*.
 
 ## Limitations
- 
+Currently not tested in Adapt Authoring Tool.
 Imagegrid automatically switches to 2 columns in mobile mode for the best user experience however this can be overridden in the css.
 
 ----------------------------
