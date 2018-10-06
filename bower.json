@@ -1,0 +1,17 @@
+{
+    "name": "adapt-imagegrid",
+    "repository": "git://github.com/chrisgillison/adapt-imagegrid",
+    "framework": "^2.0.0",
+    "version": "2.1.3",
+    "homepage": "https://github.com/chrisgillison/adapt-imagegrid",
+    "issues": "https://github.com/chrisgillison/adapt-imagegrid/issues/",
+    "displayName": "Imagegrid",
+    "component": "imagegrid",
+    "description": "A component that displays images in a grid format.",
+    "main": "/js/adapt-imagegrid.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPLv3"
+}
