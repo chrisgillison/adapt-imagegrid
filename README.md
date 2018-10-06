@@ -2,7 +2,7 @@
 
 **Imagegrid** is a *presentation component* for the [Adapt framework](https://github.com/adaptlearning/adapt_framework) based on [adapt-hotgrid](https://github.com/cgkineo/adapt-hotgrid). It displays a set of images in a grid layout, but without interactivity. 
 
-This can be useful for visual bullet lists where a set of labelled images are required but no further information necessary.
+This can be useful for visual bullet lists where a set of labelled images is required but no further information necessary.
 
 ![imagegrid](https://raw.githubusercontent.com/chrisgillison/shared-assets/master/imagegrid.gif)   
 
