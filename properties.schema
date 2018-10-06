@@ -1,0 +1,78 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "This component contains images laid out in a flexible grid.",
+      "inputType": "Text",
+      "validators": []
+    }
+  },
+  "properties": {
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "half-width",
+      "editorOnly": true
+    },
+    "_columns": {
+      "type": "number",
+      "required": true,
+      "title": "Columns",
+      "inputType": "Number",
+      "default": 3,
+      "validators": ["number"],
+      "help": "This value determines the number of columns within the grid. Any number of columns can be set however keep in mind the more columns there are the smaller the items will be."
+    },
+    "_items": {
+      "type": "array",
+      "required": true,
+      "title": "Items",
+      "items": {
+        "type": "object",
+        "required": true,
+        "properties": {
+          "_graphic": {
+            "type": "object",
+            "required": true,
+            "title": "Button Graphic",
+            "properties": {
+              "src": {
+                "type": "string",
+                "required": true,
+                "default": "",
+                "inputType": "Asset:image",
+                "validators": ["required"],
+                "help": "The item image (default state)."
+              },
+              "alt": {
+                "type": "string",
+                "required": false,
+                "default": "",
+                "title": "Item alt text",
+                "inputType": "Text",
+                "validators": [],
+                "translatable": true
+              },
+              "title": {
+                "type": "string",
+                "required": false,
+                "default": "",
+                "title": "Item Title",
+                "inputType": "Text",
+                "validators": [],
+                "help": "This is optional text which is displayed under the grid item image.",
+                "translatable": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
