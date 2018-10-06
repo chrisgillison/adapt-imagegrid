@@ -4,6 +4,8 @@
 
 This can be useful for visual bullet lists where a set of labelled images are required but no further information necessary.
 
+![imagegrid](https://raw.githubusercontent.com/chrisgillison/shared-assets/master/imagegrid.gif)   
+
 ## Settings Overview
 
 The attributes listed below are used in *components.json* to configure **Imagegrid**, and are properly formatted as JSON in [*example.json*](https://github.com/chrisgillison/adapt-imagegrid/blob/master/example.json). 
