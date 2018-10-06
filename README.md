@@ -6,7 +6,7 @@ This can be useful for visual bullet lists where a set of labelled images are re
 
 ## Settings Overview
 
-The attributes listed below are used in *components.json* to configure **Imagegrid**, and are properly formatted as JSON in [*example.json*](https://github.com/cgkineo/adapt-imagegrid/blob/master/example.json). 
+The attributes listed below are used in *components.json* to configure **Imagegrid**, and are properly formatted as JSON in [*example.json*](https://github.com/chrisgillison/adapt-imagegrid/blob/master/example.json). 
 
 ### Attributes
 
